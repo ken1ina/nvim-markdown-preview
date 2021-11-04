@@ -58,6 +58,7 @@ function! s:LiveServer.start(root, index_path)
           \ 'live-server',
           \ '--quiet',
           \ '--mount='.'/:'.mount_path,
+          \ '--mount='.'/:/home/ina/Public',
           \ '--open='.index,
           \ ],
           \ self,
